@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box
+}
+
+body{
+  background-color: palegoldenrod;
+  margin:0;
+}
+
+#app-container{
+  width:100%;
+}
+.nav-bar{
+  font-size: 0;
+}
+.nav_fixed {
+  display: inline-block;
+  font-size: medium;
+  vertical-align: top;
+}
+.restaurant-container{
+  font-size: 0;
+
+}
+.images-column img{
+  display: inline-block;
+  width:100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.shoto{
+  background-image: url(images/images/momofuko-03-ko.png);
+  background-size: cover;
+  padding: 0 0;
+}
+.words{
+  background: #333;
+  color:#fff;
+  text-align:center;
+}
+
+
+@media screen and (min-width: 600px) {
+.nav-bar{
+  width:100%;
+}
+
+  .images-column{
+    width:100%;
+  }
+}
+
+@media screen and (min-) {
+.images-column{
+  width:50%;
+}
+}
