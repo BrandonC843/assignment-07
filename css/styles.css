@@ -1,57 +1,20 @@
 * {
-    box-sizing: border-box
-}
+  box-sizing: border-box; }
 
-body{
-  background-color: palegoldenrod;
-  margin:0;
-}
+#app-container {
+  width: 100%; }
 
-#app-container{
-  width:100%;
-}
-.nav-bar{
+.nav-bar-column {
   font-size: 0;
-}
-.nav_fixed {
-  display: inline-block;
+  width: 100%; }
+
+.nav-container {
   font-size: medium;
   vertical-align: top;
-}
-.restaurant-container{
-  font-size: 0;
+  display: inline-block; }
 
-}
-.images-column img{
+.nav-mobile-container {
   display: inline-block;
-  width:100%;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.shoto{
-  background-image: url(images/images/momofuko-03-ko.png);
-  background-size: cover;
-  padding: 0 0;
-}
-.words{
-  background: #333;
-  color:#fff;
-  text-align:center;
-}
+  vertical-align: top; }
 
-
-@media screen and (min-width: 600px) {
-.nav-bar{
-  width:100%;
-}
-
-  .images-column{
-    width:100%;
-  }
-}
-
-@media screen and (min-) {
-.images-column{
-  width:50%;
-}
-}
+/*# sourceMappingURL=styles.css.map */

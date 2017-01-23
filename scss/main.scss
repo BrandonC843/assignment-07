@@ -2,7 +2,22 @@
     box-sizing: border-box
 
 }
+#app-container{
+  width:100%;
+}
 
-body{
-  background-color: palegoldenrod;
+.nav-bar-column{
+  font-size: 0;
+  width:100%;
+}
+
+.nav-container{
+  font-size: medium;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.nav-mobile-container{
+  display: inline-block;
+  vertical-align: top;
 }
